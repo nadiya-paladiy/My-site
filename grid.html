@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+          background-color: grey;
+        }
+        body {
+          max-width: 1440px;
+          margin: 0 auto;
+          padding: 20px;
+        }
+        .parent {
+          display: grid;
+          grid-template-columns: repeat(6, 1fr);
+          grid-template-rows: repeat(2, 1fr);
+          grid-column-gap: 10px;
+          grid-row-gap: 10px;
+          height: 100vh;
+        }
+        .parent > div {
+          border: 2px solid white;
+        }
+
+        .div1 { grid-area: 1 / 1 / 2 / 3; }
+        .div2 { grid-area: 1 / 3 / 2 / 4; }
+        .div3 { grid-area: 1 / 4 / 2 / 5; }
+        .div4 { grid-area: 1 / 5 / 3 / 7; }
+        .div5 { grid-area: 2 / 1 / 3 / 5; }
+
+    </style>
+ <body>
+    <h2>THE LATEST WORKS</h2>
+    <div class="parent">
+        <div class="div1">
+            <img width=100% height=100% src="assets/images/two-men.jpg" alt="two men standing back-to-back">
+         </div>
+        <div class="div2"> 
+            <img width=100% height=100% src="assets/images/one-man.jpg" alt="one man sitting in the chair">
+        </div>
+        <div class="div3"> 
+            <img width=100% height=100% src="assets/images/lady-in-jacket.jpg" alt="one women in a jacket">
+        </div>
+        <div class="div4">
+            <img width=100% height=100% src="assets/images/full-men.jpg" alt="a man in a blue suit">
+        </div> 
+        <div class="div5"> 
+            <img width=100% height=100% src="assets/images/colleagues.jpg" alt="colleagues in the office">
+        </div>
+    </div>
+</body>
+</html>
