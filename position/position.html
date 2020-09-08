@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHOTOWORLD</title>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Mono';
+    font-size: 20px;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: 0.3px;
+    height: 2000px;
+    position: relative;
+    
+}
+
+h1 h2 h3 h4 h5 h6 {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+ul li {
+    display: block;
+    padding: 0;
+    margin-right: 40px;
+}
+
+.header {
+background: url('../assets/images/background-full.jpg') no-repeat center top / cover;
+color: #fff;
+padding-bottom: 530px;
+}
+}
+
+header a {
+color: #FFF;
+}
+
+.logo {
+margin-right: 70px;
+}
+.menu {
+display: flex;
+}
+
+a {
+color: white;
+text-transform: uppercase;
+text-decoration: none;
+font-size: 14px;
+letter-spacing: 0.1em;
+}
+
+li {
+margin-right: 40px;
+}
+
+.nav {
+display: flex;
+align-items: center;
+padding-top: 20px;
+padding-left: 1050px;
+
+
+}
+.container {
+width: 1170px;
+margin: o auto;
+} 
+
+h1 {
+font-size: 50px;
+color: white;
+padding-top: -20px;
+margin-left: 400px;
+font-style: normal;
+line-height: 1.3;
+
+}
+
+h2 {
+font-size: 20px;
+color: white;
+font-style: normal;
+margin-bottom: 10px;
+margin-left: 400px; 
+line-height: 0.7;
+}
+h3 {
+font-size: 20px;
+color: black;
+font-style: normal;
+line-height: 0.7;
+}
+
+.buttons {
+display: flex;
+
+}
+
+.btn {
+font-size: 15px;
+text-align: center;
+color: white;
+letter-spacing: 0.1em;
+padding: 10px 27px;
+background: rgb(243, 70, 70);
+width: 160px;
+border-radius: 20px;
+position: absolute;
+top: 273px;
+left: 400px;
+}
+
+.btn-2 {
+font-size: 15px;
+text-align: center;
+color: white;
+letter-spacing: 0.1em;
+padding: 10px 27px;
+border: 1px solid rgb(243, 70, 70);
+width: 160px;
+transition: all 0.5s ease;
+background: none;
+position: absolute;
+top: 273px;
+left: 600px;
+border-radius: 20px;
+}
+
+.btn:hover {
+background: #fff;
+color: #000;
+}
+
+
+hr {
+position: absolute;
+margin-left: 400px;
+margin-top: -40px;
+width: 370px;
+}
+
+main {
+position: relative;
+}
+
+.sidebar {
+width: 15%;
+float: left;
+background: rgb(243, 70, 70); 
+padding: 0 2.5%;
+height: 2540px;
+
+}
+.text {
+padding: 10px;
+position: -webkit-sticky;
+position: sticky;
+top: 0px;
+z-index: 1;
+
+
+}
+
+.col-2 {
+width: 75%;
+float:right;
+background: grey;
+padding: 20px 2.5%;
+height: 2500px;
+}
+
+.letters {
+font-size: 25px;
+}
+summary {
+font-size: 20px;
+color: white; 
+padding: 10px;
+}
+.parent {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  height: 100vh;
+}
+.parent > div {
+  border: 2px solid white;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 3; }
+.div2 { grid-area: 1 / 3 / 2 / 4; }
+.div3 { grid-area: 1 / 4 / 2 / 5; }
+.div4 { grid-area: 1 / 5 / 3 / 7; }
+.div5 { grid-area: 2 / 1 / 3 / 5; }
+
+.div4 {
+position: relative;
+}
+
+.block {
+width:450px;
+height:30px;
+background: rgb(243, 70, 70);
+position: relative;
+margin-left: 956px;
+margin-top: -50px;
+padding: 10px;
+}
+.block p {
+color: white;
+font-size: 20px;
+margin-top: 0;
+}
+#arrow {
+position: absolute;
+font-size: 15px;
+text-align: center;
+color: white;
+letter-spacing: 0.2em;
+padding: 10px 27px;
+border: 1px solid white;
+width: 160px;
+border-radius: 50px;
+position: absolute;
+top: 5px;
+left: 300px;
+background: none;
+}
+.icons  {
+border: 1px solid white;
+width: 150px;
+height: 30px;
+margin-bottom: 100;
+padding: 2px;
+position: fixed;
+bottom: 80px;
+right: 50px;
+z-index: 1;
+}
+.icon-content {
+float: left;
+width: 30px;
+height: 30px;
+width: 25%;
+
+}
+
+
+    </style>
+</head>
+<body>
+    <header id="header" class="header">
+    <div class="container">
+        <div class="nav">
+            <ul class="menu">
+                
+                <li>
+                    <a href="#">
+                        ABOUT
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        NEW
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        PORTFOLIO
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        STUDIO
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        COLLABORATION
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        CONTACTS
+                    </a>
+                </li>
+            </ul>
+            
+        </div>
+          <h1>PHOTOWORLD</h1>
+          <hr size=1px width=705px align="left">
+          <h2>“I don’t trust words. I trust pictures.”</div>
+          <h2>— Gilles Peress</h2>
+          <div class="buttons">
+            <button class="btn">
+                Contact me
+            </button>
+            <button class="btn-2">
+                Video profile
+            </button>
+          </div>
+    </header>
+    <main>
+        <aside class="sidebar">
+            <ul class="text">
+                <li>
+                    <a href=""><b>P</b>ortrait</a>
+                </li>
+                <li>
+                    <a href=""><b>R</b>ecent</a>
+                </li>
+                <li>
+                    <a href=""><b>O</b>bject</a>
+                </li>
+                <li>
+                    <a href=""><b>F</b>amily</a>
+                </li>
+                <li>
+                    <a href=""><b>I</b>n expectation</a>
+                </li>
+                <li>
+                    <a href=""><b>L</b>ove</a>
+                </li>
+                <li>
+                    <a href=""><b>E</b>vent</a>
+                </li>
+            </ul>
+            <div class="icons">
+                    <a class="icon-content"href="">
+                        <img width="30" height="30" src="assets/images/icons/Facebook.png" alt="">
+                    </a>
+                    <a class="icon-content"href="">
+                        <img width="30" height="30" src="assets/images/icons/vkontakte_icon-icons.com_69251.png" alt="">
+                    </a>
+                    <a class="icon-content"href="">
+                        <img width="30" height="30" src="assets/images/icons/1491580658-yumminkysocialmedia06_83104.png" alt="">
+                    </a>
+                    <a class="icon-content"href="">
+                        <img width="30" height="30" src="assets/images/icons/twitter-circled.png" alt="">
+                    </a>
+        </div>
+            </aside>
+            <section class="col-2">
+                <details>
+                    <summary>RECENT > Corporate style</summary>
+                    <ul>
+                        <li>
+                            <a href="#">All in 2020</a>
+                        </li>
+                        
+                        <li>
+                            <a href="#">Corporate style</a>
+                        </li>
+                        <li>
+                            <a href="#">Magazine</a>
+                        </li>
+
+                    </ul>
+                  </details>
+                
+                  <div class="parent">
+                    <div class="div1">
+                        <img width=100% height=100% src="assets/images/two-men.jpg" alt="two men standing back-to-back">
+                     </div>
+                    <div class="div2"> 
+                        <img width=100% height=100% src="assets/images/one-man.jpg" alt="one man sitting in the chair">
+                    </div>
+                    <div class="div3"> 
+                        <img width=100% height=100% src="assets/images/lady-in-jacket.jpg" alt="one women in a jacket">
+                    </div>
+                    <div class="div4">
+                        <img width=100% height=100% src="assets/images/full-men.jpg" alt="a man in a blue suit">
+                    </div> 
+                    <div class="div5"> 
+                        <img width=100% height=100% src="assets/images/colleagues.jpg" alt="colleagues in the office">
+                    </div>
+                    
+                </div>
+                <div class="block">
+                    <p>Corporate style</p>
+                    <button id="arrow">
+                        See all
+                    </button>
+                </div>
+               
+            </section>
+    </main>
+        
+       
+    
+    
+    <div class="container-1">
+        <h2>The latest works</h2>
+        <div class="description">
+            <div class="desc-left"></div>
+            <div class="desc-center"></div>
+            <div class="desc-right"></div>
+        </div>
+    </div>
+
+</section>
+<footer id="footer" class="footer">
+    
+        
+    </div>
+</footer>
+       
+        
+    
+</body>
+</html>

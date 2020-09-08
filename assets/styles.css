@@ -1,6 +1,5 @@
 body{
     background:#f2f2f2;
-    color: black;
     font-family: 'News Cycle', sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -9,7 +8,38 @@ body{
     letter-spacing: 0.3px;
     text-transform: lowcase;
     margin-left: 0 auto;
-  }  
+  } 
+
+  .header {
+    background: url('../assets/images/background-full.jpg') no-repeat center top / cover;
+  }
+
+  header a {
+    color: #FFF;
+  }
+  .menu {
+    display: flex;
+  }
+
+  a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  li {
+    margin-right: 40px;
+  }
+
+  .tel {
+    font-size: 17px;
+    text-decoration: none;
+  }
+  .container {
+    width: 1170px;
+    margin: o auto;
+  } 
 
   .subheader-gray {
     color: gray;
@@ -26,6 +56,10 @@ body{
   h1 {
     font-size: 40px;
     font-weight: bold;
+    color: white;
+    margin-left: 0;
+    margin-top: 0;
+    position: absolute;
   }
 
   h2:hover {
