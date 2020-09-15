@@ -63,6 +63,11 @@ li {
       margin: o auto;
      } 
 
+img {
+        object-fit: cover;
+        object-position: center;
+     }  
+
  h1 {
  font-size: 50px;
  color: white;
@@ -99,7 +104,7 @@ h3 {
    letter-spacing: 0.1em;
    padding: 10px 27px;
    background: rgb(243, 70, 70);
-   width: 160px;
+   /* width: 160px; */
    border-radius: 20px;
    position: absolute;
    top: 273px;
@@ -123,7 +128,7 @@ h3 {
   }
 
  .btn:hover {
-       background: #fff;
+       background: red;
        color: #000;
      }
 
@@ -202,7 +207,7 @@ h3 {
     position: relative;
     margin-left: 956px;
     margin-top: -50px;
-    padding: 10px;
+    padding: 10px; 
  }
 
  .block p {

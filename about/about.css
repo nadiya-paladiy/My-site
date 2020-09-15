@@ -1,0 +1,45 @@
+body {
+    background: url('../about/about-image/about-bg.jpg') no-repeat center top / cover;;
+}
+
+.hi {
+    position: relative;
+    top: 10px;
+    left: 1050px;
+    color: tomato;
+    font-size: 30px;
+    display: block;
+}
+
+.bio {
+    position: relative;
+    top: 30px;
+    left: 1050px;
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1,5em;
+    letter-spacing: 0,1em;
+    width: 500px; 
+} 
+
+.home {
+    width: 60px;
+    height: 60px;
+    border: 1px solid red;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+.home img {
+    width: 60%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+}
+

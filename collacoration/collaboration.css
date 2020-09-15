@@ -1,0 +1,94 @@
+*,
+*:: after,
+*:: before {
+    box-sizing: border-box;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: nowrap;
+    min-height: 100vh;
+    overflow: auto;
+}
+
+.col {
+    width: 400px;
+    min-width: 400px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+#home {
+    width: 100px;
+    min-width: 100px;
+    padding: 10px;
+    background-color: slategray;
+ 
+}
+
+.home {
+    width: 60px;
+    height: 60px;
+    border: 1px solid red;
+    border-radius: 10px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+/* .home img {
+    width: 60%;
+    height: 60%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+} */
+
+.col + .col {
+    border-left: 1px solid black;
+}
+
+#ny {
+    background-color: green;
+}
+
+#love {
+    background-color: red;
+}
+
+#family {
+    background-color: lightskyblue;
+}
+
+#winter {
+    background-color: whitesmoke;
+}
+
+#nu {
+    background-color: gray;
+}
+
+#wed {
+    background-color: palevioletred;
+}
+
+#baby {
+    background-color: yellow;
+}
+
+img {
+    object-fit: cover;
+    object-position: center;
+    min-height: 100vh;
+}
+
+#baby img  {
+    width: 100%;
+}
+
+#wed img {
+    width: 100%;
+}
