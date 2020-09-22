@@ -47,6 +47,16 @@ a {
  letter-spacing: 0.1em;
 }
 
+.hover {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hover:hover {
+    background: red;
+    color: white;
+
+}
+
 li {
  margin-right: 40px;
 }
@@ -109,6 +119,14 @@ h3 {
    position: absolute;
    top: 273px;
    left: 400px;
+   transition: transform 0.5s ease-in-out;
+ }
+
+ .btn:hover {
+     background: red;
+     color: #000;
+     border: 1px solid grey;
+     transform: scale(1.5);
  }
 
   .btn-2 {
@@ -125,12 +143,15 @@ h3 {
      top: 273px;
      left: 600px;
      border-radius: 20px;
+     transition: transform 0.5s ease-in-out;
   }
 
- .btn:hover {
-       background: red;
-       color: #000;
-     }
+  .btn-2:hover {
+    background: red;
+    color: white;
+    border: 1px solid grey;
+    transform: scale(1.5);
+}
 
  hr {
     position: absolute;
@@ -200,6 +221,19 @@ h3 {
      position: relative;
  }
 
+ .div1:hover {
+    transform: scale(1.5) 
+ }
+ .div2:hover {
+    transform: scale(1.5) 
+ } .div3:hover {
+    transform: scale(1.5) 
+ } .div4:hover {
+    transform: scale(1.5) 
+ } .div5:hover {
+    transform: scale(1.5) 
+ }
+
  .block {
     width:450px;
     height:30px;
@@ -251,3 +285,18 @@ h3 {
      height: 30px;
      width: 23%;
  }
+
+ .anime {
+     width: 150px;
+     height: 50px;
+     border: 1px solid white;
+     padding: 2px;
+     background: rgb(237,14,14);
+     background: linear-gradient(90deg, rgba(237,14,14,1) 0%, rgba(96,97,101,0) 35%, rgba(246,247,236,1) 100%);
+     transition: width 1s cubic-bezier(0, 0, 1, 1) 500ms;
+ }
+
+ .anime:hover {
+        width: 250px;
+}
+

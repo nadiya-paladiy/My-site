@@ -1,5 +1,6 @@
 body {
     background: url('../about/about-image/about-bg.jpg') no-repeat center top / cover;;
+    box-sizing: border-box;
 }
 
 .hi {
@@ -7,7 +8,7 @@ body {
     top: 10px;
     left: 1050px;
     color: tomato;
-    font-size: 30px;
+    font-size: 30px; 
     display: block;
 }
 
@@ -40,6 +41,29 @@ body {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) }
+    transform: translate(-50%, -50%) 
+    
 }
 
+p {
+    animation-duration: 2s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 50%;
+      width: 50%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 50%;
+    }
+  
+    75% {
+      font-size: 300%;
+      margin-left: 25%;
+      width: 150%;
+    }
+  }
