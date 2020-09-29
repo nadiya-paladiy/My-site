@@ -1,0 +1,294 @@
+body {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: (calc (10/1440 * 100vw));
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.head {
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    margin: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .head {
+    height: 100%;
+    }
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    
+}
+
+@media (max-width: 768px) {
+    .menu {
+      display: block; 
+      align-items: center;
+      justify-content: center;
+      text-align: center; 
+
+    }
+}
+
+li {
+    list-style-type: none; 
+}
+
+a {
+    font-size: 2rem;
+    color: white;
+    margin-right: 2rem;
+    text-decoration: none;
+      
+}
+
+
+a:hover {
+    font-size: 3rem;
+    color: orangered;
+    background-color: white;
+    margin-right: 1rem;
+}
+
+.main {
+    width: 95%;
+    background-color: black;
+    margin: auto;
+    padding: 1rem;
+    display: flex;
+}
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+}
+summary {
+    font: bold 2rem Arial, sans-serif;
+    color: wheat; 
+    border: none;
+    margin: 1rem;
+   }
+@media (max-width: 768px) {
+   summary {
+       text-align: center;
+   }
+}
+
+.text   {
+       font-size: 1.5rem;
+       color: burlywood;
+   }
+   
+
+   .text:hover {
+    font-size: 2rem;
+    color: white;
+    background-color: burlywood;
+    margin-right: 1rem;
+}
+@media (max-width: 768px) {
+    .text {
+        text-align: center;
+    }
+ }
+   .woman {
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid white;
+    margin-left: 1rem;
+}
+
+.woman:hover {
+    border: 1px solid orangered;
+    transform: scale(1.1);
+}
+@media (max-width: 768px) {
+    .woman {
+        width: 30rem;
+        height: 30rem;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+ 
+}
+
+.men {
+    width: 20rem;
+    height: 20rem;
+    border: 1px solid white;
+    margin-left: 1rem;
+}
+
+.men:hover {
+    border: 1px solid orangered;
+    transform: scale(1.1);
+}
+@media (max-width: 768px) {
+    .men {
+        width: 30rem;
+        height: 30rem;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+}
+
+.child {
+    width: 20rem;
+    height: 20rem;
+    background-color: teal;
+    border: 1px solid white;
+    margin-left: 1rem;
+}
+.child:hover {
+    border: 1px solid orangered;
+    transform: scale(1.1);
+}
+@media (max-width: 768px) {
+    .child {
+        width: 30rem;
+        height: 30rem;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+}
+.babies {
+    width: 20rem;
+    height: 20rem;
+    background-color: orange;
+    border: 1px solid white;
+    margin-left: 1rem;
+}
+@media (max-width: 768px) {
+    .babies {
+        width: 30rem;
+        height: 30rem;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+}
+.babies:hover {
+    border: 1px solid orangered;
+    transform: scale(1.1);
+}
+.pet {
+    width: 20rem;
+    height: 20rem;
+    background-color: orange;
+    border: 1px solid white;
+    margin-left: 1rem;
+}
+.pet:hover {
+    border: 1px solid orangered;
+    transform: scale(1.1);
+}
+@media (max-width: 768px) {
+    .pet {
+        width: 30rem;
+        height: 30rem;
+        margin: 0 auto;
+        margin-top: 1rem;
+
+    }
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+footer {
+    position: relative; 
+    left: 0; bottom: 0; 
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-around;
+   
+   
+}
+
+@media (max-width: 1119px) {
+    footer {
+        flex-direction: column;
+    }
+}
+ 
+.black {
+    width: 30rem;
+    background-color: black;
+    margin: 2rem;
+}
+@media (max-width: 1119px) {
+    .black {
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+}
+
+.orange {
+    width: 30rem;
+    background-color: orangered;
+    margin: 2rem;
+}
+@media (max-width: 1119px) {
+    .orange {
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+}
+.white {
+    width: 30rem;
+    background-color: white;
+    margin: 2rem;
+}
+@media (max-width: 1119px) {
+    .white  {
+        margin: 0 auto;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+.white p {
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+}
+.black p {
+    color: orange;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+}
+.orange p {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+}
