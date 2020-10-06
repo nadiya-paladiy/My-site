@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+    background-image: url(../Animation/animation-images/ew-growing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+
+}
+html {
+    font-size: (calc (10/1440 * 100vw));
+}
+
+  .welcome {
+      text-decoration: none;
+      display: inline-block;
+      line-height: 6rem;
+      font-weight: bold;
+      padding: 0 3rem;
+      text-transform: uppercase;
+      letter-spacing: 0.2rem;
+      font-family: Geneva, Arial, Helvetica, sans-serif;
+      font-size: 1.8rem;
+      border: 1px lightgrey;
+      border-radius: 1rem;
+      position: relative;
+      top: 0;
+      left: 0;
+      transition-duration: all 1s ease 0s;
+      color: white;
+      background-color: lightskyblue;
+      box-shadow:  0 0.3rem 0 lightgrey;
+      animation-name: welcome;
+      animation-duration: 1s;
+      animation-delay: 1s;
+      animation-fill-mode: forwards;
+           
+  }  
+  .welcome:hover{
+      box-shadow:  0 0.1rem 0 blue;
+      background-color: blue;
+     transition: all 2s ease-out 0s;   
+  }
+
+  
+  @keyframes welcome{
+    0% {
+        top: 0;
+        left: 0;
+ }
+    100% {
+        top:20rem;
+        left: 20rem;
+
+    }
+}
+
+
+  
+
+.title {
+    width: 500px;
+    height: 500px;
+    position: relative;
+    background-color: black;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
