@@ -14,7 +14,7 @@
     content="Website of RomaZur containing works, photosession details, studio information">
     <meta
     property="og:image"
-    content="https://github.com/nadiya-paladiy/My-site/tree/master/assets/og-image.png">
+    content="../assets/og-image.png">
     <meta
     property="og:url"
     content="https://github.com/nadiya-paladiy/My-site/tree/master/position">
