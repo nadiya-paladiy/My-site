@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHOTOWORLD</title>
-    <link rel="stylesheet" href="../position/main.css">
+    <link rel="stylesheet" href="./position/main.css">
     <link rel="stylesheet" href="assets">
     <meta 
     property= "og:title" 
@@ -100,16 +100,16 @@
             </div>
             <div class="icons">
                     <a class="icon-content"href="">
-                        <img width="30" height="30" src="../assets/images/icons/facebook.png" alt="">
+                        <img width="30" height="30" src="./assets/images/icons/facebook.png" alt="">
                     </a>
                     <a class="icon-content"href="">
-                        <img width="30" height="30" src="../assets/images/icons/vkontakte.png" alt="">
+                        <img width="30" height="30" src="./assets/images/icons/vkontakte.png" alt="">
                     </a>
                     <a class="icon-content"href="">
-                        <img width="30" height="30" src="../assets/images/icons/instagram.png" alt="">
+                        <img width="30" height="30" src="./assets/images/icons/instagram.png" alt="">
                     </a>
                     <a class="icon-content"href="">
-                        <img width="30" height="30" src="../assets/images/icons/twitter.png" alt="">
+                        <img width="30" height="30" src="./assets/images/icons/twitter.png" alt="">
                     </a>
         </div>
             </aside>
