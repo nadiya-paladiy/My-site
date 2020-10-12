@@ -14,10 +14,10 @@
     content="Website of RomaZur containing works, photosession details, studio information">
     <meta
     property="og:image"
-    content="../assets/og-image.png">
+    content="https://raw.githubusercontent.com/nadiya-paladiy/My-site/master/assets/images/og-image.png">
     <meta
     property="og:url"
-    content="https://github.com/nadiya-paladiy/My-site/tree/master/position">
+    content="https://github.com/nadiya-paladiy/My-site/blob/master/position">
     <link rel="shortcut icon" href="../assets/images/favicon.png">
 </head>
 <body>
