@@ -66,15 +66,15 @@
     .icons  {
      border: 1px solid white;
      border-radius: 10px;
-     width: 240px;
+     width: 180px;
      height: 40px;
      
  }
 
  .icon-content {
      float: left;
-     margin-left: 10px;
-     width: 20%;
+     margin-left: 15px;
+     width: 25%;
  }
     .pulse {
     animation: pulsing 2s infinite;
