@@ -7,7 +7,7 @@ body {
 .hi {
     position: relative;
     top: 10px;
-    left: 1050px;
+    left: 900px;
     color: tomato;
     font-size: 30px; 
     display: block;
@@ -16,7 +16,7 @@ body {
 .bio {
     position: relative;
     top: 30px;
-    left: 1050px;
+    left: 900px;
     color: white;
     font-style: italic;
     font-size: 20px;
