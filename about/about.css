@@ -1,6 +1,7 @@
 body {
     background: url('../about/about-image/about-bg.jpg') no-repeat center top / cover;;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .hi {
@@ -45,7 +46,7 @@ body {
     
 }
 
-p {
+/* p {
     animation-duration: 2s;
     animation-name: slidein;
   }
@@ -65,5 +66,5 @@ p {
       font-size: 300%;
       margin-left: 25%;
       width: 150%;
-    }
+    } */
   }
