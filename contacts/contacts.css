@@ -68,11 +68,15 @@
      border-radius: 10px;
      width: 180px;
      height: 40px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
      
  }
 
  .icon-content {
-     float: left;
+    
+     /* padding: 4px 20px; */
      margin-left: 15px;
      width: 25%;
  }
