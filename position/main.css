@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 body {
+    width: 100%;
     margin: 0;
     padding: 0;
     font-family: 'PT Mono';
@@ -11,7 +12,7 @@ body {
     font-style: normal;
     line-height: 1.3;
     letter-spacing: 0.3px;
-    height: 2000px;
+    height: 2100px;
  }
 
  h1 h2 h3 h4 h5 h6 {
@@ -23,7 +24,7 @@ body {
  ul li {
      display: block;
      padding: 0;
-     margin-right: 40px;
+     margin-right: 60px;
  }
 
  .header {
@@ -53,12 +54,15 @@ a {
 }
 
 .hover {
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 1s ease, color 0.3s ease;
+    padding: 5px 15px ;
 }
 
 .hover:hover {
-    background: red;
-    color: white;
+    background: darkgray;
+    color: gray;
+    border-radius: 20px;
+    transform: scale(1.2);
 
 }
 
@@ -90,6 +94,27 @@ img {
  margin-left: 400px;
  font-style: normal;
  line-height: 1.3;
+ animation: phw 3s 1;
+}
+
+@keyframes phw {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        
+        opacity: 0.5;
+    }
+        
+    75% {
+        opacity: 0.5;
+        letter-spacing: 20px;
+        line-height: 1;
+    }
+    100% {
+        color: white
+        opacity: 1;
+    }
 }
 
 h2 {
@@ -99,8 +124,22 @@ h2 {
   margin-bottom: 10px;
   margin-left: 400px; 
   line-height: 0.7;
+  animation: logo 4s 1;
 }
-
+@keyframes logo {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
 h3 {
  font-size: 20px;
  color: black;
@@ -110,6 +149,21 @@ h3 {
 
 .buttons {
   display: flex;
+  animation: but 6s 1;
+ }
+ @keyframes but {
+     0% {
+         opacity: 0;
+     }
+     50% {
+         opacity: 0;
+     }
+     75% {
+         opacity: 0.5;
+     }
+     100% {
+         opacity: 1
+     }
  }
 
 .btn {
@@ -118,11 +172,11 @@ h3 {
    color: white;
    letter-spacing: 0.1em;
    padding: 10px 27px;
+   top: 300px;
    background: rgb(243, 70, 70);
    /* width: 160px; */
    border-radius: 20px;
    position: absolute;
-   top: 273px;
    left: 400px;
    transition: transform 0.5s ease-in-out;
  }
@@ -131,7 +185,7 @@ h3 {
      background: red;
      color: #000;
      border: 1px solid grey;
-     transform: scale(1.5);
+     transform: scale(1.1);
  }
 
   .btn-2 {
@@ -145,7 +199,7 @@ h3 {
      transition: all 0.5s ease;
      background: none;
      position: absolute;
-     top: 273px;
+     top: 300px;
      left: 600px;
      border-radius: 20px;
      transition: transform 0.5s ease-in-out;
@@ -155,7 +209,7 @@ h3 {
     background: red;
     color: white;
     border: 1px solid grey;
-    transform: scale(1.5);
+    transform: scale(1.1);
 }
 
  hr {
@@ -163,14 +217,35 @@ h3 {
     margin-left: 400px;
     margin-top: -40px;
     width: 370px;
+    animation:line 3s 1;
  }
+
+@keyframes line {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        
+        opacity: 0;
+    }
+        
+    75% {
+        opacity: 0.5;
+        width: 550px;
+        margin-top: -30px;
+    }
+    100% {
+        color: white
+        opacity: 1;
+    }
+}
 
  main {
      position: relative;
  }
 
  .sidebar {
-       width: 15%;
+       width: 25%;
        float: left;
        background: rgb(243, 70, 70); 
        padding: 0 2.5%;
@@ -181,8 +256,21 @@ h3 {
      padding: 10px;
      position: -webkit-sticky;
      position: sticky;
-     top: 0px;
+     top: 0;
      z-index: 1;
+
+ }
+
+ .text li {
+     padding-bottom: 10px;
+
+ }
+
+
+ .left-menu:hover {
+     color:lightgrey;
+     font-size: 20px;
+     
  }
 
  .col-2 {
@@ -220,31 +308,34 @@ h3 {
  .div2 { grid-area: 1 / 3 / 2 / 4; }
  .div3 { grid-area: 1 / 4 / 2 / 5; }
  .div4 { grid-area: 1 / 5 / 3 / 7; }
- .div5 { grid-area: 2 / 1 / 3 / 5; }
+ .div5 { grid-area: 2 / 1 / 3 / 5;
+    z-index: 1; }
 
  .div4 {
      position: relative;
  }
 
  .div1:hover {
-    transform: scale(1.5) 
+    transform: scale(1.2) 
  }
  .div2:hover {
-    transform: scale(1.5) 
- } .div3:hover {
-    transform: scale(1.5) 
- } .div4:hover {
-    transform: scale(1.5) 
- } .div5:hover {
-    transform: scale(1.5) 
+    transform: scale(1.2) 
+ } 
+ .div3:hover {
+    transform: scale(1.2) 
+ } 
+
+ .div5:hover {
+    transform: scale(1.2) 
+   
  }
 
  .block {
-    width:450px;
-    height:30px;
+    width:437px;
+    height:50px;
     background: rgb(243, 70, 70);
     position: relative;
-    margin-left: 956px;
+    margin-left: 893px;
     margin-top: -50px;
     padding: 10px; 
  }
@@ -267,15 +358,22 @@ h3 {
     border-radius: 50px;
     position: absolute;
     top: 5px;
-    left: 300px;
+    left: 270px;
     background: none;
+ }
+
+ #arrow:hover {
+    background: white;
+    color: red;
+    transition: transform 1s ease-in-out;
+   
  }
 
   .icons  {
      border: 1px solid white;
      width: 150px;
-     height: 30px;
-     margin-bottom: 0;
+     height: 35px;
+     /* margin-bottom: 0; */
      padding: 2px;
      position: fixed;
      bottom: 80px;
@@ -285,13 +383,19 @@ h3 {
 
  .icon-content {
      float: left;
-     margin-left: 3px;
+     margin-left: 10px;
+     margin-top: -2px;
      width: 30px;
      height: 30px;
      width: 23%;
  }
 
+ .icon-content:hover {
+     transform: scale(1.1);
+ }
  .anime {
+     position: sticky;
+     top: 300px;
      width: 150px;
      height: 50px;
      border: 1px solid white;
